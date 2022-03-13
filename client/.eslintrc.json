@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:react/recommended",
+    "airbnb-base"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-unused-vars": "warn",
+    "prefer-const": "warn",
+    "no-console": 1,
+    "max-lines": 1,
+    "func-names": "off",
+    "react/display-name": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "comma-dangle": "off",
+    "import/extensions": "off",
+    "no-unsafe-optional-chaining": "off",
+    "object-curly-newline": "off",
+    "import/no-extraneous-dependencies": "off",
+    "operator-linebreak": "off"
+  }
+}

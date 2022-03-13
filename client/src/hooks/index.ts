@@ -1,0 +1,1 @@
+export { useProductCategories } from './useProductCategories';

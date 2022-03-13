@@ -1,0 +1,11 @@
+- cleanup of app architecture
+- created folders for separate components
+- created folder for individual responsible functionality
+- converted class based component to functional components
+- used apollo graphql to do queries
+- added mock server for testing the query
+- added hooks folder to seperate data fetching functionality
+- added routing for page
+- implemented search functionality
+- prettier configuration for code formatting/indentation
+- eslint configuration to ensure good coding practices

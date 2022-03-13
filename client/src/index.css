@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 160px auto auto;
+  grid-template-areas:
+    'header header header'
+    'sidebar content content'
+    'footer footer footer';
+  margin: 5px;
+}
+
+.page > * {
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightblue;
+  justify-content: space-between;
+  display: flex;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px 5px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.header-text {
+  align-items: center;
+  display: flex;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lavender;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 20%;
+  width: 10%;
+}
+
+.sidebar-title {
+  position: fixed;
+  top: 10%;
+}
+
+.sidebar ul li {
+  margin: 0 0 0 8px;
+  padding: 8px 0;
+}
+
+.content {
+  grid-area: content;
+  grid-column: span 2;
+  border: 1px solid black;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightblue;
+  text-align: center;
+  border: 1px solid black;
+}
