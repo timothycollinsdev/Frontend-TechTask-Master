@@ -14,6 +14,7 @@
     "@typescript-eslint/no-use-before-define": ["error"],
     "no-unused-vars": "warn",
     "prefer-const": "warn",
+    "no-undef": "warn",
     "no-console": 1,
     "max-lines": 1,
     "func-names": "off",

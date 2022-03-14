@@ -37,5 +37,5 @@
   top: 50%;
   left: 50%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
