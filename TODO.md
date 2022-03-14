@@ -2,3 +2,4 @@
 - use of ui framework for reusable components .e.g. tailwind css
 - state management .e.g. contextApi/redux
 - pagination/lazy loading
+- ui and design improvement
