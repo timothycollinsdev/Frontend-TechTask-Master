@@ -1,8 +1,8 @@
 import React from 'react';
 import { act, render } from '@testing-library/react';
-import { Products } from './Products';
 import { MockedProvider } from '@apollo/client/testing';
 import { CATEGORIES } from 'queries';
+import { Products } from './Products';
 
 const mocks = [
   {

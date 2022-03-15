@@ -1,5 +1,5 @@
-- test coverage improvement
-- use of ui framework for reusable components .e.g. tailwind css
-- state management .e.g. contextApi/redux
-- pagination/lazy loading
-- ui and design improvement
+- test coverage improvement to test the application and acheive at least 90% coverage for bug free app
+- use of ui framework for reusable components and responsive for mobile and web. Also to avoid custom css as much as possible .e.g. tailwind css
+- state management .e.g. contextApi/redux. To manage the global state of application through central store and avoid prop drilling
+- pagination/lazy loading to load only few items first and then next based on demand. To avoid load on application while fetching all at once.
+- ui and design improvement as there are few changes left for sidebar and overall.
